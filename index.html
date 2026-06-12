@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project README</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #0078d7;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            margin-top: 25px;
+            color: #444;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            border: none;
+            background: #0078d7;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #005bb5;
+        }
+
+        .message {
+            margin-top: 15px;
+            color: green;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>🚀 My Awesome Project</h1>
+
+    <p>
+        A simple project template built with HTML, CSS, and JavaScript.
+    </p>
+
+    <h2>✨ Features</h2>
+    <ul>
+        <li>Responsive Design</li>
+        <li>Clean UI</li>
+        <li>Easy to Customize</li>
+        <li>Pure HTML, CSS & JavaScript</li>
+    </ul>
+
+    <h2>📦 Installation</h2>
+    <p>Clone the repository and open <code>index.html</code> in your browser.</p>
+
+    <h2>🛠 Usage</h2>
+    <p>Click the button below to test JavaScript functionality.</p>
+
+    <button class="btn" onclick="showMessage()">
+        Click Me
+    </button>
+
+    <div id="message" class="message"></div>
+
+    <footer>
+        Made with ❤️ using HTML, CSS & JavaScript
+    </footer>
+</div>
+
+<script>
+function showMessage() {
+    document.getElementById("message").innerText =
+        "✅ JavaScript is working successfully!";
+}
+</script>
+
+</body>
+</html>
